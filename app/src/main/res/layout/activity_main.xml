@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:padding="8dp"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:gravity="center"
+>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/digite_o_valor"
+            android:textSize="25dp"
+    />
+    <EditText
+            android:id="@+id/edit_brl_value"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:text=""
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:inputType="numberSigned"
+
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:text="@string/valor_em_dolar"
+            android:textColor="@color/colorPrimaryText"
+    />
+    <TextView
+            android:id="@+id/text_usd_value"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:text="@string/valor_dolar_convertido"
+            android:textColor="@color/colorAccent"
+            android:textSize="40dp"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:text="@string/valor_em_euro"
+            android:textColor="@color/colorPrimaryText"
+    />
+    <TextView
+            android:id="@+id/text_eur_value"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:text="@string/valor_euro_convertido"
+            android:textColor="@color/colorAccent"
+            android:textSize="40dp"
+    />
+    <Button
+            android:id="@+id/button_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorLight"
+            android:text="Calcular"
+    />
+</LinearLayout>

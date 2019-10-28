@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ConversorMoedas</string>
+    <string name="digite_o_valor">BRL</string>
+    <string name="valor_em_dolar">Valor em Dólar</string>
+    <string name="valor_dolar_convertido">USD</string>
+    <string name="valor_em_euro">Valor em Euro</string>
+    <string name="valor_euro_convertido">EUR</string>
+    <string name="informe_valor">Informe um valor</string>
+</resources>
